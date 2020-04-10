@@ -1,22 +1,27 @@
-# Built with Jekyll 3.6.0
+# Built with Jekyll 3.2.0
+
+# [little reminder from mindzauber: don't forget, that if you use ' in the text, you should change 
+# the beginning and ending ' into ". Else you might produce an error.]
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
+title:               mindzauber.
+tagline:             'a website for talking taboos'
+#description:         'mindzauber. is a website for no-no topics. it is for talking taboos.'
+description:         "mindzauber. is a website for talking about the things people wouldn't want to talk about. it is about talking taboos."
+url:                 'http://mindzauber.github.io'
 baseurl:             '/ed'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
-
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+  name:              Peggy
+  url:               https://twitter.com/peggyaster
+  email:             mindzauber@gmail.com
 
 # Permalinks
+
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme: 
+
 permalink: pretty
 permalink: /:title/
 
@@ -44,19 +49,8 @@ kramdown:
 exclude:
   - optional
   - vendor
-  - ed..gemspec
-  - Gemfile
-  - Gemfile.lock
-  - backstop_data
-  - backstop.json
 
 # Theme
-# (Used for local or custom-server deployments)
-# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
-# See https://jekyllrb.com/docs/themes/
-# theme: "ed."
+theme: "ed."
 
-# Remote Theme
-# (Used only for GitHub deployments)
-# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+
